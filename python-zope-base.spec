@@ -20,8 +20,8 @@ BuildRequires:	python-modules
 BuildRequires:	python3
 BuildRequires:	python3-modules
 %endif
-Obsoletes:	Zope-dirs
 Provides:	Zope-dirs
+Obsoletes:	Zope-dirs < 1.0-8
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 # nothing to put there
